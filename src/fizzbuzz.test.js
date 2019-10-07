@@ -16,4 +16,9 @@ describe('Fizzbuzz', function(){
     expect(fizzbuzz.isDivisbleByFive(5)).toBe(true);
   })
 
+  it('knows when a number is divisble by five', function() {
+    var fizzbuzz = new Fizzbuzz()
+    expect(fizzbuzz.isDivisbleByFive(7)).toBe(false);
+  })
+
 })

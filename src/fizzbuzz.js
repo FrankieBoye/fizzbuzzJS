@@ -3,6 +3,10 @@ module.exports=class Fizzbuzz {
   }
 
   isDivisbleByThree (number) {
-    return (number % 3 === 0);
+    return (number % 3 === 0)
+  }
+
+  isDivisbleByFive (number) {
+    return true
   }
 }
