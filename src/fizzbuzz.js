@@ -1,9 +1,8 @@
 module.exports=class Fizzbuzz {
-  constructor () {  
+  constructor () {
   }
 
   isDivisbleByThree (number) {
-    return true
+    return (number % 3 === 0);
   }
 }
-
