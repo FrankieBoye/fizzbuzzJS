@@ -9,4 +9,8 @@ module.exports=class Fizzbuzz {
   isDivisbleByFive (number) {
     return (number % 5 === 0)
   }
+
+  isDivisbleByFifteen (number) {
+    return true
+  }
 }
