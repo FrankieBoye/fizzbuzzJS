@@ -21,4 +21,9 @@ describe('Fizzbuzz', function(){
     expect(fizzbuzz.isDivisbleByFive(7)).toBe(false);
   })
 
+  it('knows when a number is divisble by fifteen', function() {
+    var fizzbuzz = new Fizzbuzz()
+    expect(fizzbuzz.isDivisbleByFifteen(15)).toBe(true);
+  })
+
 })
