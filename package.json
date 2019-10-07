@@ -1,0 +1,22 @@
+{
+  "name": "fizzbuzzjs",
+  "version": "1.0.0",
+  "description": "Fizzbuzz in JavaScript practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrankieBoye/fizzbuzzJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FrankieBoye/fizzbuzzJS/issues"
+  },
+  "homepage": "https://github.com/FrankieBoye/fizzbuzzJS#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
