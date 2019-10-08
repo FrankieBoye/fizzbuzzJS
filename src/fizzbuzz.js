@@ -11,6 +11,6 @@ module.exports=class Fizzbuzz {
   }
 
   isDivisbleByFifteen (number) {
-    return true
+    return (number % 15 === 0)
   }
 }
