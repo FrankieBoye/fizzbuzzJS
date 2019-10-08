@@ -16,19 +16,19 @@ describe('Fizzbuzz', function(){
     expect(fizzbuzz.isDivisbleByFive(5)).toBe(true);
   })
 
-  it('knows when a number is divisble by five', function() {
+  it('knows when a number is not divisble by five', function() {
     var fizzbuzz = new Fizzbuzz()
     expect(fizzbuzz.isDivisbleByFive(7)).toBe(false);
   })
 
-  it('knows when a number is divisble by fifteen', function() {
+  it('knows when a number is divisble by both three and five', function() {
     var fizzbuzz = new Fizzbuzz()
     expect(fizzbuzz.isDivisbleByFifteen(15)).toBe(true);
   })
 
-  it('knows when a number is divisble by fifteen', function() {
+  it('knows when a number is not divisble by both three and five', function() {
     var fizzbuzz = new Fizzbuzz()
-    expect(fizzbuzz.isDivisbleByFifteen(15)).toBe(false);
+    expect(fizzbuzz.isDivisbleByFifteen(16)).toBe(false);
   })
 
 })
